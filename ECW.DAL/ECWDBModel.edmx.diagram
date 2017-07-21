@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="67a158fb9e7a464fba041589f118813c" Name="Diagram1" ZoomLevel="48">
+        <EntityTypeShape EntityType="ShopWebDBModel.Administrator" Width="1.5" PointX="7.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopWebDBModel.Goods" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopWebDBModel.Indent" Width="1.5" PointX="5.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopWebDBModel.Permissions" Width="1.5" PointX="12.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopWebDBModel.Picture" Width="1.5" PointX="2.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopWebDBModel.Role" Width="1.5" PointX="10" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopWebDBModel.ShippingAddress" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopWebDBModel.ShoppingCartDetails" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopWebDBModel.sysdiagrams" Width="1.5" PointX="4.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopWebDBModel.User" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <AssociationConnector Association="ShopWebDBModel.FK_Indent_Goods" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopWebDBModel.FK_ShoppingCartDetails_Goods" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopWebDBModel.FK_Indent_ShippingAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopWebDBModel.FK_指向用户_用户订单_" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopWebDBModel.FK_一个用户多个收货地址" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopWebDBModel.FK_ShoppingCartDetails_User" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopWebDBModel.AdministratorPermissions" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopWebDBModel.AdministratorRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopWebDBModel.RolePermissions" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
